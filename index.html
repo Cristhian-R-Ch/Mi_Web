@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Configuración -->
+    <!-- Configuracion -->
     <meta charset="UTF-8"> <!-- Caracteres especiales -->
-    <title>Portafolio - Cristhian Rodriguez</title> <!-- Título  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Cristhian Rodriguez</title> <!-- Titulo  -->
     <link rel="stylesheet" href="style.css"> <!-- Archivo CSS -->
 </head>
 <body>
     <!-- Cabecera -->
-    <header>
+    <header id="top">
         <h1>Cristhian Rodriguez</h1> <!-- Titulo -->
-        <p>Estudiante de Técnico Analista Programador | INACAP</p> <!-- Subtítulo -->
+        <p>Estudiante de Técnico Analista Programador | INACAP</p> <!-- Subtitulo -->
     </header>
 
-    <!-- Navegación -->
+    <!-- Navegacion -->
     <nav>
         <ul>
             <li><a href="#sobre-mi">Sobre Mí</a></li> 
@@ -24,34 +25,44 @@
     
     <!-- Contenido principal -->
     <main>
-        <!-- Sección 1: Información personal -->
+        <!-- Seccion 1: Informacion personal -->
         <section id="sobre-mi">
             <h2>Sobre Mí</h2>
             <!-- Foto -->
             <img src="assets/img/foto-perfil.jpg" alt="Foto de perfil - Cristhian Rodriguez" class="foto-perfil">
-            <!-- Descripción -->
-            <p>Hola! Mi nombre es Cristhian Jhossep Rodriguez, tengo 28 años y soy estudiante de la carrera de 
-                Técnico Analista Programador en INACAP</p>
+            <!-- Descripcion -->
+            <p>Hola!<br> 
+                Mi nombre es Cristhian Jhossep Rodriguez, tengo 28 años y soy estudiante de la carrera Técnico 
+                Analista Programador en INACAP<br> 
+                Desde joven he sentido una atracción por la tecnología y los videojuegos, ya que tuve acceso a un 
+                computador desde temprana edad, lo que despertó en mí la curiosidad por entender cómo funcionan los programas.<br>
+                Esta motivación me ayudó a decidir estudiar una carrera relacionada con la programación.</p>
         </section>
 
         <!-- Sección 2: Hobbies -->
         <section id="hobbies">
             <h2>Mis Hobbies</h2>
             <ul>
-                <li><strong>Leer mangas y manhwas:</strong></li>
-                <li><strong>Jugar videojuegos:</strong></li>
-                <li><strong>Escuchar música:</strong></li>
-                <li><strong>Conversar con amigos:</strong></li>
+                <li><strong>Leer comics/mangas:</strong><br> Disfruto las historias de distintos géneros, 
+                    especialmente las ambientadas en mundos postapocalípticos o de ciencia ficción.</li>
+                <li><strong>Jugar videojuegos:</strong><br> Desde joven me apasionan los videojuegos en PC, esto 
+                    también me despertó la curiosidad por la lógica detras del desarrollo de videojuegos</li>
+                <li><strong>Escuchar música:</strong><br> La música forma parte de mi día a día, me acompaña tanto 
+                    en momentos de descanso como de concentración y me ayuda a mantenerme motivado</li>
+                <li><strong>Conversar con amigos:</strong><br> Suelo realizar conversaciones por llamada con mis amigos, 
+                    ya sea para relajarnos, compartir o simplemente pasar el rato</li>
             </ul>
         </section>
 
-        <!-- Sección 3: Formación académica -->
+        <!-- Sección 3: Formacion academica -->
         <section id="formacion">
             <h2>Formación Académica</h2>
-            <div class="tarjeta"> <!-- Div para estilizar como tarjeta -->
+            <div class="tarjeta">
                 <h3>INACAP</h3>
-                <p><strong>Ingeniería en Prevención de Riesgos</strong></p>
-                <p><strong>Técnico Analista Programador</strong></p>
+                <p><strong>Ingeniería en Prevención de Riesgos</strong> (2019 - 2022)<br>
+                    Titulado como Ingeniero en Prevención de Riesgos</p>
+                <p><strong>Técnico Analista Programador</strong> (2024 - Presente)<br>
+                    Actualmente cursando la carrera</p>
             </div>
         </section>
     </main>
@@ -60,5 +71,7 @@
     <footer>
         <p>Contacto: <a href="mailto:cristhian.rodriguez05@inacapmail.cl">cristhian.rodriguez05@inacapmail.cl</a></p>
     </footer>
+    <!-- Boton para volver al inicio -->
+        <a href="#top" class="btn-volver-arriba" title="Volver al inicio">⬆️</a>
 </body>
 </html>

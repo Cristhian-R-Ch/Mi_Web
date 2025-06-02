@@ -1,0 +1,103 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente base */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Interlineado */
+    color: #333333; /* Color de texto principal*/
+    background-color: #0b324e; /* Color de fondo general*/
+}
+
+section h2 {
+    text-align: center; /* Titulos h2 centrads*/
+}
+
+/* Cabecera con imagen de fondo */
+header {
+    background-image: url('assets/img/fondo-header.jpg');
+    background-size: cover; /* Imagen ocupa todo el ancho */
+    background-position: center; /* Centrar horizontal y verticalmente */
+    color: white;
+    text-align: center;
+    padding: 60px 20px; /* Espaciado interno (superior/inferior y laterales) */
+    text-shadow: 1px 1px 3px #00000080; /* Sombra suave al texto */
+}
+
+/* Navegación horizontal*/
+nav {
+    background-color: #041d33;
+    padding: 5px; /* Espaciado con los bordes internos */
+}
+
+nav ul {
+    display: flex; /* Elementos en línea */
+    justify-content: center; /* Centrar los elementos */
+    gap: 30px; /* Espacio entre elementos */
+    list-style: none; /* Quitar los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* Eliminar subrayado */
+}
+
+/* Contenedor principal */
+main {
+    padding: 30px; /* Espacio interno entre nav y main */
+    max-width: 650px; /* Ancho maximo */
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+/* Secciones de contenido */
+section {
+    margin-bottom: 30px; /* Espacio inferior entre secciones */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 5px 20px #4aabff41; /* Sombra suave */
+}
+
+/* Imagen de perfil centrada */
+.foto-perfil {
+    width: 140px;
+    height: 150px;
+    border-radius: 50%; /* Forma circular */
+    object-fit: cover; /* Ajusta la imagen sin deformarcion */
+    object-position: 50% 25%; /* Centrado horizontal - posicion vertical */
+    display: block;
+    margin: 0 auto 30px; /* Centrado y espacio inferior */
+    border: 3px solid #0b324e;
+}
+
+/* Pie de pagina */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #041d33;
+    color: white;
+}
+
+footer a {
+    color: #da7266; /* Color para enlace */
+}
+
+/* Boton "Volver arriba" */
+.btn-volver-arriba {
+    position: fixed; /* Posicion fija del boton */
+    bottom: 15px;
+    right: 10px;
+    background-color: #0b324e;
+    color: white;
+    padding: 5px 5px; /* Espaciado vertical y horizontal */
+    border-radius: 20%; /* Bordes redondeados */
+    text-decoration: none;
+    font-size: 20px; /* Tamaño de la ↑ */
+    box-shadow: 0 5px 20px #4aabff41; /* sombra suave */
+    z-index: 1000; /* Boton siempre encima de los demas elementos */
+}
+
+.btn-volver-arriba:hover {
+    background-color: #4aabff41; /* cambio de color cuando al pasar sobre el boton */
+}
