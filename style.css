@@ -9,17 +9,17 @@ body {
 }
 
 section h2 {
-    text-align: center; /* Titulos h2 centrads*/
+    text-align: center; /* Titulos h2 centrados*/
 }
 
 /* Cabecera con imagen de fondo */
 header {
     background-image: url('assets/img/fondo-header.jpg');
     background-size: cover; /* Imagen ocupa todo el ancho */
-    background-position: center; /* Centrar horizontal y verticalmente */
+    background-position: center; /* Centrado horizontal y vertical */
     color: white;
     text-align: center;
-    padding: 60px 20px; /* Espaciado interno (superior/inferior y laterales) */
+    padding: 60px 20px; /* Espaciado interno */
     text-shadow: 1px 1px 3px #00000080; /* Sombra suave al texto */
 }
 
@@ -31,9 +31,9 @@ nav {
 
 nav ul {
     display: flex; /* Elementos en línea */
-    justify-content: center; /* Centrar los elementos */
+    justify-content: center; /* Centrado de los elementos */
     gap: 30px; /* Espacio entre elementos */
-    list-style: none; /* Quitar los puntos de la lista */
+    list-style: none; /* Eliminar los puntos de la lista */
     padding: 0;
     margin: 0;
 }
@@ -45,7 +45,7 @@ nav a {
 
 /* Contenedor principal */
 main {
-    padding: 30px; /* Espacio interno entre nav y main */
+    padding: 30px; /* Espacio (nav / main) */
     max-width: 650px; /* Ancho maximo */
     margin: 0 auto; /* Centrado horizontal */
 }
@@ -67,7 +67,7 @@ section {
     object-fit: cover; /* Ajusta la imagen sin deformarcion */
     object-position: 50% 25%; /* Centrado horizontal - posicion vertical */
     display: block;
-    margin: 0 auto 30px; /* Centrado y espacio inferior */
+    margin: 0 auto 30px; /* Centrado - espacio inferior */
     border: 3px solid #0b324e;
 }
 
